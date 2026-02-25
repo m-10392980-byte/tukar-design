@@ -1,10 +1,3 @@
-<head>
-        <link rel="stylesheet" href="css/style.css">
-</head>
-
-
 <footer class="site-footer">
-    Hakcipta &copy; 2025-2026 : <b>AJKundi-Pengundian Pemilihan AJK Kampung Dusun Merah</b>
+    <p>&copy; 2026 VOTE4LEADER - Sistem Pengundian Pemilihan AJK Kadet Polis</p>
 </footer>
-</body>
-</html>
