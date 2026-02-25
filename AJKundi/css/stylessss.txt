@@ -1,0 +1,145 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #FAF3E0;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #7A1F1F;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    height: 20px;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    border-color: black;
+    background-color: #FAF3E0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav:hover {
+    transform: scale(1.08) rotate(0deg) translate(0px, -12px) skewX(0deg);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    filter: brightness(1.1);
+    background-color: #7A1F1F;
+    color: blue;
+}
+
+.logout {
+    text-align: center;
+    text-decoration: none;
+    top: -10px;
+    position: relative;
+    float: right;
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    height: 20px;
+    font-size: 20px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    border-color: black;
+    background-color: #FAF3E0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.logout:hover {
+    transform: scale(1.08) rotate(0deg) translate(0px, -12px) skewX(0deg);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    filter: brightness(1.1);
+    background-color: #7A1F1F;
+    color: blue;
+}
+
+.tajuk {
+    position: relative;
+    right: -45px;
+}
+
+.input{
+    background: #FAF3E0;      /* warna kotak */
+    border: 2px solid #8B1E2D;/* warna border */
+    padding: 7px 9px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input-senarai{
+    color: black;
+    background: #b9e4ca;      /* warna kotak */
+    border: 2px solid #D6EADF;/* warna border */
+    padding: 8px 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.input:focus{
+    border-color: #6F1824;    /* border bila klik */
+    box-shadow: 0 0 0 3px rgba(139,30,45,0.2);
+}
+
+.pilih {
+    background: #FAF3E0;      /* warna kotak */
+    border: 2px solid #8B1E2D;
+    font-size: 18px;
+    padding: 7px 11px;
+    width: 219px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.papar {
+    font-size: 18px;
+    padding: 7px 15px;
+}
+
+.center-img {
+    position: relative;
+    right: -70px;
+    top: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.table {
+    position: relative;
+    bottom: -80px;
+    border: 10px solid #7A1F1F;
+    border-radius: 20px;
+    border-color: #7A1F1F;
+    background-color: #fff4d6;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    box-shadow: 0 0 20px black;
+}
+
+.daftar {
+    position: relative;
+    bottom: -80px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
